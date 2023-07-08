@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+    <header class="bg-slate-50 w-full p-3 shadow-lg">
+        <nav class="container mx-auto items-center flex flex-row justify-between" >
+            <img class="w-28 h-24 object-contain" src="./logo-removebg-preview.png"/>
+
+            <div class="md:flex flex-row text-xl gap-5 font-thin hidden">
+                <a href="#" class="hover:font-bold hover:underline">Microsoft 365</a>
+                <a href="#" class="hover:font-bold hover:underline">Products</a>
+                <a href="#" class="hover:font-bold hover:underline">Resources</a>
+                <a href="#" class="hover:font-bold hover:underline">Support</a>
+            </div>
+
+            <div class="text-xl">
+                <input class="border rounded-md md:w-72 w-28 pl-2" type="text" placeholder="Search Here" name="Search"/>
+                <button class="cursor-pointer hover:underline " type="submit">Submit</button>
+                <!-- <button type="submit"><i class="fa fa-search">>&#xf002</i></button> -->
+            </div>
+
+            <div class="text-3xl md:hidden">
+                &#x21c5
+            </div>
+        </nav>
+    </header>
+
+    <content class="h-screen w-full p-1">
+        <div class="container m-auto items-center +shadow-md shadow-sky-300 gap-5 p-4 flex flex-col md:flex-row bg-sky-200">
+            <img class="" src="./ms-365-removebg-preview.png"/>
+
+            <div class="md:w-1/2 w-full flex flex-col gap-3 font-bold">
+                <h2 class="font-bold text-2xl">Office is now Microsoft 365</h2>
+                <h2 class="font-bold text-2xl">Boost productivity with Microsoft Word, Excel, PowerPoint, Microsoft Teams, and more <span class="text-sky-500">all in one place!</span></h2>
+            
+            <div class="w-full flex md:flex-row flex-col gap-5 md:items-start items-center">
+                <button class=" bg-blue-600 text-white w-1/3 rounded-sm px-4 py-1 hover:shadow-md hover:bg-blue-500">Personal and family</button>
+                <button class=" bg-blue-600 text-white w-1/3 px-4 py-1 rounded-sm hover:shadow-md hover:bg-blue-500">Business</button>
+            </div>
+
+            <div class="w-full flex md:flex-row flex-col gap-5 md:items-start items-center">
+                <button class=" bg-blue-600 text-white w-1/3 px-4 py-1 rounded-sm hover:shadow-md hover:bg-blue-500">Enterprise</button>
+                <button class=" bg-blue-600 text-white w-1/3 px-4 py-1 rounded-sm hover:shadow-md hover:bg-blue-500">Education</button>
+            </div>
+            
+            </div>
+        </div>
+
+        <h1 class="text-xl md:text-3xl font-bold text-center mt-5">Discover what’s happening with Microsoft 365</h1>
+
+        <div class="container w-full mx-auto flex md:flex-row gap-5  flex-col">
+
+            <div class="flex flex-col md:w-1/2 mt-5 p-5 gap-5 border border-t-transparent md:border-b-white border-b-slate-950 md:border-r-slate-950 ">
+                <h2 class="text-xl font-bold">Introducing Microsoft 365 Copilot</h2>
+                <p class="font-thin">The new Microsoft 365 Copilot experience works alongside you, embedded in the apps you use every day—Word, Excel, PowerPoint, Outlook, Teams, and more. It combines the power of language models with your business data and context—including all your Microsoft 365 apps, documents, and conversations.</p>
+                <img class="w-full md:w-1/2" src="./capilot.jpg"/>
+            </div>
+
+            <div class="flex flex-col md:w-1/2 mt-5 p-5 gap-5   ">
+                <h2 class="text-xl font-bold">Create stunning designs in a flash, powered by AI</h2>
+                <p class="font-thin">Easily craft social posts, invitations, and one-of-a-kind designs with Microsoft Designer, a new AI-powered graphic design app, now available in preview.1 Get tailored suggestions and create unique designs that meet your creative needs.</p>
+                <img class="w-full md:w-1/2" src="./msdesigner.png"/>
+            </div>
+        </div>
+    </content>
+
+    <footer class="w-full bg-slate-50 h-fit p-3">
+        <div class="flex p-5 md:flex-row flex-col border rounded-xl border-gray-300 gap-5 container">
+
+            <div class="flex flex-col md:w-1/3 gap-5 ">
+                <h2 class="text-lg font-bold underline">About</h2>
+                <img class="w-20" src="./logo-removebg-preview.png"/>
+                <p class="font-thin">Next-generation AI has the power to fuel productivity and innovation. Discover three urgent insights, based on the latest research from Microsoft, that business leaders must know in the race to adopt AI.</p>
+            </div>
+
+            <div class="flex flex-col md:w-1/3 gap-5 ">
+                <h2 class="text-lg font-bold underline cursor-pointer">Navigations</h2>
+                <ul>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Microsoft 365</li>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Products</li>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Resources</li>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Support</li> 
+                </ul>    
+            </div>
+
+            <div class="flex flex-col md:w-1/3 gap-5 ">
+                <h2 class="text-lg font-bold underline cursor-pointer">Microsoft Store</h2>
+                <ul>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Account Profile</li>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Download Store</li>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Returns</li>
+                    <li class="p-1 border-b-2 border-slate-500 shadow-md hover:font-bold cursor-pointer">Order Tracking</li> 
+                </ul>    
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
